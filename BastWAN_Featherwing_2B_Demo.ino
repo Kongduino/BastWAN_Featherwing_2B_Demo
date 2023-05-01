@@ -46,7 +46,7 @@ void loop() {
     SerialUSB.println("Could not preload CALM.2B!");
     while (1);
   }
-  // preloadInage() and displayImage(char *fName, uint16_t XX, uint16_t YY, Adafruit_ILI9341 tft) save the widht and height in pWidth/pHeight
+  // preloadImage() and displayImage(char *fName, uint16_t XX, uint16_t YY, Adafruit_ILI9341 tft) save the widht and height in pWidth/pHeight
   // displayImage(uint16_t *colors, uint16_t zWidth, uint16_t zHeight, uint16_t XX, uint16_t YY, Adafruit_ILI9341 tft) requires width and height
   // and does not modify pWidth/pHeight
   uint16_t calmWidth, calmHeight;
